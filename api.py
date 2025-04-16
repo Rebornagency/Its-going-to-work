@@ -1,6 +1,6 @@
 from fastapi import FastAPI, UploadFile, File
-from file_handler import extract_text_from_file
-from gpt_extractor import extract_financial_data
+from .file_handler import extract_text_from_file
+from .gpt_extractor import extract_financial_data
 import uvicorn
 import os
 
